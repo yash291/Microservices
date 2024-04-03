@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: hystrix-dashboard
+
+server:
+  port: 9555
+
+
+hystrix:
+  dashboard:
+    proxy-stream-allow-list: "*"
