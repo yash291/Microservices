@@ -1,0 +1,16 @@
+server:
+  port: 8761 
+
+# by-default port is 8761
+
+# we are telling eureka - server not to register by itself
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+  server:
+    wait-time-in-ms-when-sync-empty: 0
+  instance:
+    hostname: localhost
+    
+# above is waiting time
